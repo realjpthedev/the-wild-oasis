@@ -18,6 +18,10 @@ function Login() {
 		<LoginLayout>
 			<Logo />
 			<Heading as="h4">Log in to your account</Heading>
+			<p style={{ textAlign: "center" }}>
+				<strong>email</strong>: test@test.com <br /> <strong>password</strong>:
+				password1
+			</p>
 			<LoginForm />
 		</LoginLayout>
 	);
